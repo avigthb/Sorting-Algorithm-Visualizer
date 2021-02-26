@@ -1,0 +1,37 @@
+button{
+    background:crimson;
+    color: white;
+}
+label{
+    background:crimson;
+    color: white;
+}
+input{
+    background:crimson;
+    color:white;
+}
+.container{
+    display:flex;
+    height:100vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background:rgb(94, 66, 121);
+}
+.navbar{
+    width: 90%;
+    height: 5%;
+    display:flex;
+    justify-content: space-between;
+}
+.main{
+    width: 90%;
+    height: 90%;
+    background:grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.bars{
+    background: black;
+}
